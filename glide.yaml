@@ -1,0 +1,32 @@
+package: github.com/svbygoibear/go-ing-to-test-my-service
+homepage: https://svbygoibear.github.io/go-ing-to-test-my-service
+license: MIT
+owners:
+- name: Simone van Buuren
+  email: svbygoibear@gmail.com
+import:
+- package: github.com/labstack/echo
+  version: 3.2.1
+- package: github.com/labstack/gommon
+  version: 0.2.2
+  subpackages:
+    - color
+    - log
+- package: github.com/mattn/go-colorable
+  version: 0.0.9
+- package: github.com/mattn/go-isatty
+  version: 0.0.2
+- package: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- package: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- package: golang.org/x/crypto
+  version: 7f7c0c2d75ebb4e32a21396ce36e87b6dadc91c9
+  subpackages:
+    - acme
+    - acme/autocert
+- package: golang.org/x/sys
+  version: 4cd6d1a821c7175768725b55ca82f14683a29ea4
+  subpackages:
+    - unix
+testImports: []
